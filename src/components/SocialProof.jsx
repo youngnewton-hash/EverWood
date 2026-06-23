@@ -20,22 +20,22 @@ function SocialProof() {
 
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div className="bg-white p-6 rounded-lg shadow-md h-48 hover:bg-gray-200 transition-colors duration-300 cursor-pointer">
-                        <p className="text-gray-700 mb-4">"EverWood transformed my living room! The quality and craftsmanship are unmatched. Highly recommend!"</p>
-                        <p className="font-bold text-gray-900">- Sarah M.</p>
+                    <div className="p-6 rounded-lg shadow-md h-48 bg-[#111111] hover:bg-[#1a1510] border border-transparent hover:border-[#c9a84c] hover:border-2 transition duration-300 cursor-pointer">
+                        <p className="text-[#f5f0e8] mb-4">"EverWood transformed my living room! The quality and craftsmanship are unmatched. Highly recommend!"</p>
+                        <p className="font-bold text-[#c9a84c]">- Sarah M.</p>
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md h-48 hover:bg-gray-200 transition-colors duration-300 cursor-pointer">
-                        <p className="text-gray-700 mb-4">"I love my new dining set from EverWood. It's both stylish and functional. The customer service was excellent too!"</p>
-                        <p className="font-bold text-gray-900">- James K.</p>   
+                    <div className="p-6 rounded-lg shadow-md h-48 bg-[#111111] hover:bg-[#1a1510] border border-transparent hover:border-[#c9a84c] hover:border-2 transition duration-300 cursor-pointer">
+                        <p className="text-[#f5f0e8] mb-4">"I love my new dining set from EverWood. It's both stylish and functional. The customer service was excellent too!"</p>
+                        <p className="font-bold text-[#c9a84c]">- James K.</p>   
                     </div>
-                    <div className="bg-white p-6 rounded-lg shadow-md h-48 hover:bg-gray-200 transition-colors duration-300 cursor-pointer">
-                        <p className="text-gray-700 mb-4">"The attention to detail in every piece from EverWood is impressive. My home has never looked better!"</p>
-                        <p className="font-bold text-gray-900">- Emily R.</p>
+                    <div className="p-6 rounded-lg shadow-md h-48 bg-[#111111] hover:bg-[#1a1510] border border-transparent hover:border-[#c9a84c] hover:border-2 transition duration-300 cursor-pointer">
+                        <p className="text-[#f5f0e8] mb-4">"The attention to detail in every piece from EverWood is impressive. My home has never looked better!"</p>
+                        <p className="font-bold text-[#c9a84c]">- Emily R.</p>
                     </div>
-                     <div className="bg-white p-6 rounded-lg shadow-md h-48 hover:bg-gray-200 transition-colors duration-300 lg:col-start-2">
-                        <p className="text-gray-700 mb-4">"The sofa exceeded all expectations. the fabric feels luxurious but has already survived two coffee spills and a golden retriever.
+                     <div className="md:p-6 p-8 rounded-lg shadow-md h-48 bg-[#111111] hover:bg-[#1a1510] border border-transparent hover:border-[#c9a84c] hover:border-2 transition duration-300 lg:col-start-2">
+                        <p className="text-[#f5f0e8] mb-4">"The sofa exceeded all expectations. the fabric feels luxurious.
                             Absolutely worth the investment!"</p>
-                        <p className="font-bold text-gray-900">- David k.</p>
+                        <p className="font-bold text-[#c9a84c]">- David k.</p>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@
 
 function Footer() {
     return (
-        <div className="bg-gray-800">
+        <div className=" bg-gray-900">
            <div className="py-8 px-12 text-white text-center">
             <h2>JOIN THE INNER CIRCLE</h2>
             <p className="text-gray-400">Sign up for our newsletter to receive exclusive offers, product updates, and design inspiration.</p>
@@ -15,7 +15,7 @@ function Footer() {
                 />
                 <button
                     type="submit"
-                    className="ml-2 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md transition duration-300"
+                    className="ml-2 bg-[#1a1510] hover:bg-blue-700 text-[#0a0a0a] hover:text-white py-2 px-4 rounded-md transition duration-300"
                 >
                     Subscribe
                 </button>
@@ -23,21 +23,21 @@ function Footer() {
             </div>
             
             
-            <div className="py-8 px-12 text-white flex justify-center">
-                  <ul className="flex gap-4 justify-center">
+            <div className="py-8 px-12 text-white flex">
+                  <ul className="flex flex-col gap-4">
                     <li><a href="#" className="hover:text-[#C9A84C]"> Contact Us </a></li>
-                    <li>||</li>
+                   
                     <li><a href="#" className="hover:text-[#C9A84C]"> Shipping & Delivers</a></li>
-                     <li>||</li>
+                    
                      <li><a href="#" className="hover:text-[#C9A84C]"> Returns & Exchanges</a></li>
-                    <li>||</li>
+                 
                     <li><a href="#" className="hover:text-[#C9A84C]"> FAQ</a></li>
-                     <li>||</li>
+                   
                     <li><a href="#" className="hover:text-[#C9A84C]">Care & Maintenance</a></li> 
                   </ul>
             </div>
 
-            <footer className="bg-gray-800 text-blackR py-8">
+            <footer className="text-black py-8">
                 <div className="container mx-auto text-center">
                     <p>&copy; 2026 devDrey. All rights reserved.</p>
                 </div>

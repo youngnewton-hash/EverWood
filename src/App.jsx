@@ -1,25 +1,19 @@
-import Hero from './components/Hero'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import ChooseUs from './components/ChooseUs'
-import ProductCard from './components/ProductCard'
-import ProductList from './components/ProductList'
-import SocialProof from './components/SocialProof'
-import Footer from './components/Footer'
-import './index.css'
-
+import Home from './pages/Home'
+import Shop from './pages/Shop'
+import About from './pages/About'
 
 function App() {
   return(
-    <div>
-      <Navbar/>
-      <Hero/>
-      <ChooseUs/>
-      <ProductCard/>
-      <ProductList/>
-      <SocialProof/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+         <Route path='/' element={<Home />} ></Route>
+         <Route path='/' element={<Shop />} ></Route>
+         <Route path='/' element={<About />} ></Route>
+         
+      </Routes>
+    </BrowserRouter>
   )
 }
-
-export default App

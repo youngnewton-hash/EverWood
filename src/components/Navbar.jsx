@@ -16,9 +16,9 @@ function Navbar() {
                  {/* Navigation links */} 
                 <ul className={`hidden md:flex md:items-center md:space-x-16 text-sm tracking-wide uppercase`}>   
                 <li><a href="/" className="text-[#f5f0e8]  hover:text-[#C9A84C]">Home</a></li>
-                <li><Link to="/shop" className="text-[#f5f0e8]  hover:text-[#C9A84C]">Shop</Link></li>
-                <li><Link to="/about" className="text-[#f5f0e8]  hover:text-[#C9A84C]">About</Link></li>
-                <li><Link to="/contact" className="text-[#f5f0e8] hover:text-[#C9A84C]">Contact</Link></li>
+                <li><Link to="/Shop" className="text-[#f5f0e8]  hover:text-[#C9A84C]">Shop</Link></li>
+                <li><Link to="/About" className="text-[#f5f0e8]  hover:text-[#C9A84C]">About</Link></li>
+                <li><Link to="/Contact" className="text-[#f5f0e8] hover:text-[#C9A84C]">Contact</Link></li>
                 </ul>
             </div>
            

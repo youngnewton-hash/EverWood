@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -15,9 +16,9 @@ function Navbar() {
                  {/* Navigation links */} 
                 <ul className={`hidden md:flex md:items-center md:space-x-16 text-sm tracking-wide uppercase`}>   
                 <li><a href="/" className="text-[#f5f0e8]  hover:text-[#C9A84C]">Home</a></li>
-                <li><a href="/shop" className="text-[#f5f0e8]  hover:text-[#C9A84C]">Shop</a></li>
-                <li><a href="/about" className="text-[#f5f0e8]  hover:text-[#C9A84C]">About</a></li>
-                <li><a href="/contact" className="text-[#f5f0e8] hover:text-[#C9A84C]">Contact</a></li>
+                <li><Link to="/shop" className="text-[#f5f0e8]  hover:text-[#C9A84C]">Shop</Link></li>
+                <li><Link to="/about" className="text-[#f5f0e8]  hover:text-[#C9A84C]">About</Link></li>
+                <li><Link to="/contact" className="text-[#f5f0e8] hover:text-[#C9A84C]">Contact</Link></li>
                 </ul>
             </div>
            

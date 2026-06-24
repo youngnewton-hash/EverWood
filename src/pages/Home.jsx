@@ -4,7 +4,7 @@ import ProductCard from '../components/ProductCard'
 import ProductList from '../components/ProductList'
 import SocialProof from '../components/SocialProof'
 import Footer from '../components/Footer'
-import './index.css'
+import '../index.css'
 
 
 function App() {
